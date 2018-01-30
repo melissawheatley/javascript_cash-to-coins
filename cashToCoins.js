@@ -1,6 +1,7 @@
 
 // Convert the dollar amount into the coins that make up that dollar amount. The final result is an object with the correct number of quarters, dimes, nickels, and pennies.
 var dollarAmount = 5.68
+console.log("Original Dollar Amount: ", dollarAmount);
 
 var piggyBank = {quarters: 0,
     dimes: 0,
@@ -42,7 +43,7 @@ var piggyBank = {quarters: quartersCoins,
     pennies: penniesCoins
  }
 
-console.log(piggyBank)
+console.log("These are the coins in my piggy bank: ", piggyBank);
 
 // That should produce the following output.
 
